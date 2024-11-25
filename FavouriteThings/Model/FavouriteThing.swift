@@ -18,26 +18,26 @@ struct FavouriteThing: Identifiable {
     let id = UUID()
     let name: String
     let description: String
-    let image: String = ""
+    let image: String
 }
  
-let piano = FavouriteThing(name: "Piano", description: "Without a doubt, piano is so fun to play with.")
+let piano = FavouriteThing(name: "Piano", description: "Without a doubt, piano is so fun to play with.", image: "Piano")
 
-let tiramisu = FavouriteThing(name: "Tiramisu", description: "Tiramisu is the best desert in the world.")
+let tiramisu = FavouriteThing(name: "Tiramisu", description: "Tiramisu is the best desert in the world.", image: "Tiramisu")
 
-let shibaInu = FavouriteThing(name: "Shiba-Inu", description: "I love thsi dog so much.")
+let shibaInu = FavouriteThing(name: "Shiba-Inu", description: "I love thsi dog so much.", image: "ShibaInu")
 
-let donut = FavouriteThing(name: "Donut", description: "Also one of the great inventions.")
+let cs2 = FavouriteThing(name: "Counter Strike 2", description: "Have fun in gun fight", image: "CS2")
 
-let brawlStars = FavouriteThing(name: "Brawl Stars", description: "Play that game almost everyday")
+let brawlStars = FavouriteThing(name: "Brawl Stars", description: "Play that game almost everyday", image: "BrawlStars")
 
-let tft = FavouriteThing(name: "TFT", description: "That is the main game I love right now.")
+let tft = FavouriteThing(name: "TFT", description: "That is the main game I love right now.", image: "TFT")
 
 let favouriteThings = [
     piano,
     tiramisu,
     shibaInu,
-    donut,
+    cs2,
     brawlStars,
     tft
 ]
